@@ -1,5 +1,5 @@
 import fastify from 'fastify';
-import { router } from './routes/user';
+import { router } from './routes/data';
 
 const port: number = 5000;
 
