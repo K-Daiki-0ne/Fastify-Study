@@ -1,8 +1,7 @@
 import fastify from 'fastify';
 import { router } from './routes/user';
-import { fetchApi } from './api/index';
 
-const port: number = 3000;
+const port: number = 5000;
 
 const app: any = fastify();
 
